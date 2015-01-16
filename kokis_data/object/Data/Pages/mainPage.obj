@@ -1,0 +1,40 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Main" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="960" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<BTN ID="41272DFB-367C-49AA-A633-81273F97837D" Nm="CocaCola" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+			<LCT X="136%" Y="80%" W="255%" H="199%" Z="0" Anc="3" LockAutoSize="1" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+			<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<POS Pos="15" SMode="2" />
+			<IMGS>
+				<INACT InactiveResName="" />
+				<DEFAULT DefaultResName="coke_classic.png" />
+				<HGHLIGHTD HighlightedResName="" />
+				<FOC FocusedResName="" />
+			</IMGS>
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;&quot;" />
+			</DATA>
+		</BTN>
+		<BTN ID="27C2B43B-A59B-47F4-B4CB-F98AF77456E1" Nm="CocaColaZero" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+			<LCT X="619%" Y="80%" W="255%" H="199%" Z="0" Anc="3" LockAutoSize="1" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+			<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<POS Pos="15" SMode="2" />
+			<IMGS>
+				<INACT InactiveResName="" />
+				<DEFAULT DefaultResName="coke_zero.png" />
+				<HGHLIGHTD HighlightedResName="" />
+				<FOC FocusedResName="" />
+			</IMGS>
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;&quot;" />
+			</DATA>
+		</BTN>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Main_Self_OnShow(e);" />
+		<ONKEYP script="Main_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

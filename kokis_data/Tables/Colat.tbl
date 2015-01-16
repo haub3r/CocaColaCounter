@@ -1,0 +1,23 @@
+<OBJECT>
+	<Table name="Colat" id="FA9F708F-7E91-4B41-9542-8AB0CE9FE04E" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific LastFieldID="0" Guid="" OverrideOnUpdate="1" ReadOnly="0" isServerObject="0" OneToOneType="1819307375" ActualFileSize="0" RunOnMemory="0">
+			<Columns>
+				<Column ID="1" Name="name" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+				<Column ID="2" Name="servingSize" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+				<Column ID="3" Name="calories" Type="2" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+			</Columns>
+			<Rows>
+				<Row ID="1" Caption="">
+					<Cell Value="Coca Cola" />
+					<Cell Value="0,33 l" />
+					<Cell Value="140" />
+				</Row>
+				<Row ID="2" Caption="">
+					<Cell Value="Coca Cola Zero" />
+					<Cell Value="0,33 l" />
+					<Cell Value="0" />
+				</Row>
+			</Rows>
+		</TypeSpecific>
+	</Table>
+</OBJECT>
