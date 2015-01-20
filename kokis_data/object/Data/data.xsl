@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd">
-<PROJECT SID="-1" WS="http://www.smartface.biz" dateLastResourceUpdated="010101000000" AppID="0" AppName="Smartface Demo" CID="0" Ver="1.0.0" ScreenW="640" ScreenH="960" Dpi="326" FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="">
+<PROJECT SID="-1" WS="http://www.smartface.biz" dateLastResourceUpdated="010101000000" AppID="1701667150" AppName="Smartface Demo" CID="0" Ver="1.0.0" ScreenW="640" ScreenH="960" Dpi="326" FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="">
 	<MAPAPI AndroidMapKey="" IosGeocodingKey="" />
 	<ADMOB AdMobPublisherId="" AdMobTestUsage="0" />
 	<DEVICEORIENTATIONS DeviceOrientationPortrait="1" DeviceOrientationUpsideDown="0" DeviceOrientationLandscapeLeft="0" DeviceOrientationLandscapeRight="0" />
@@ -28,6 +28,18 @@
 			<COLUMN ID="3" Name="calories" Type="FLOAT" PrimaryKey="0" AutoIncrement="0" ForeignKey="00000000-0000-0000-0000-000000000000" DefaultValue="" PrimaryAssistant="0" IsSecure="0" />
 		</TABLE>
 	</DATATABLES>
+	<DATASETS>
+		<DATASET ID="BA7F326C-471D-40BD-BF3F-99D86A800F33" Name="ColaClassicView" TableID="FA9F708F-7E91-4B41-9542-8AB0CE9FE04E" AutoCommit="0" FastCommit="0" PreserveState="0">
+			<SQLTEXT>
+			<![CDATA[
+SELECT "Colat"."name" FROM "Colat"
+			]]>
+			</SQLTEXT>
+			<COLUMNS>
+				<COLUMN ID="1" Name="Colat.name" />
+			</COLUMNS>
+		</DATASET>
+	</DATASETS>
 	<GLOBALEVENTS>
 		<ONSTART script="Global_Events_OnStart(e);" />
 		<ONERROR script="Global_Events_OnError(e);" />

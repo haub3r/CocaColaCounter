@@ -1,0 +1,14 @@
+<OBJECT>
+	<Dataset name="ColaClassicView" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" FastCommit="0" PreserveState="0" SelectAll="0" isServerObject="0">
+			<Fields>
+				<Field ID="1" Name="Colat.name" TblID="FA9F708F-7E91-4B41-9542-8AB0CE9FE04E" />
+			</Fields>
+			<SqlText>
+			<![CDATA[
+SELECT "Colat"."name" FROM "Colat"
+			]]>
+			</SqlText>
+		</TypeSpecific>
+	</Dataset>
+</OBJECT>
